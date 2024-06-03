@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ta Te Ti - Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/gif.gif">
+</head>
+
+<body>
+    <div id="preloader">
+        <div id="status"></div>
+    </div>
+
+    <div class="container">
+        <h1>Ta Te Ti</h1>
+        <div id="mensaje">Turno de X</div>
+        <div id="tablero" class="board"></div>
+        <button id="reset">Reiniciar Juego</button>
+    </div>
+
+    <audio id="sonido" loop>
+        <source src="sonido/game-music-loop-3-144252.mp3" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+
+    <script src="juego.js"></script>
+    <script src="preloader.js"></script>
+    <script src="animacion.js"></script>
+    <script src="audio.js"></script>
+</body>
+
+
+</html>
